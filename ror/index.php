@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <?PHP include(ROOT.'/includes/headers.php'); ?>
+      <?PHP include(ROOT.'/includes/header.php'); ?>
     </header>
 
     <nav>
