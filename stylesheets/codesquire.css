@@ -1,0 +1,29 @@
+body {
+  background-image: url(../images/black-striped-bg.png) ;
+  /*
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+  margin: 1%;
+}
+.well {
+  width: 60%;
+  background-color: #DDDDDD;
+  background-color:rgba(221,221,221,0.7);
+  margin: 10px 20%;
+  padding: 3%;
+}
+h1, h2 {
+  color: #eee;
+}
+
+p {
+  color: #2C3B67;
+}
+
