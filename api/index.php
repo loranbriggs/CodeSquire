@@ -19,7 +19,7 @@
 
     <section>
       <br />
-      <a href="twittermap/">Twitter Map</a>
+      <a href="http://twittermap.codesquire.com/">Twitter Map</a>
 
     </section>
 
