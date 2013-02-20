@@ -16,7 +16,7 @@
         <h2>Playfair's Cipher</h2>
         <applet
           class = "well"
-          codebase = "/playfairscipher"
+          codebase = "playfairscipher/"
           code = "PlayfairCipher.class"
           width = 480
           height = 320
@@ -33,7 +33,7 @@
         <h2>Polynomials</h2>
         <applet
           class = "well"
-          codebase = "/polynomials"
+          codebase = "polynomials/"
           code = "Polynomials.class"
           width = 500
           height = 350
