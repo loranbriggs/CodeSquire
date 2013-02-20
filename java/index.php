@@ -19,7 +19,8 @@
 
     <section>
       <br />
-      <a href="playfairscipher/">Playfair's Cipher</a>
+      <a href="playfairscipher/">Playfair's Cipher</a> |
+      <a href="polynomials/">Polynomials</a>
 
     </section>
 
