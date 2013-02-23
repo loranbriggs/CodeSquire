@@ -19,11 +19,27 @@ body {
   margin: 10px 20%;
   padding: 3%;
 }
-h1, h2 {
+h1, h2, h3 {
   color: #eee;
 }
 
 p {
   color: #2C3B67;
+}
+
+iframe.well {
+  width: 80%;
+  margin: 10px 10%;
+  height: 800px;
+}
+
+#tweet ul { list-style: none; }
+#tweet li {
+  color: #eee;
+}
+
+.instagram img {
+  display: block;
+  margin: 0 auto;
 }
 

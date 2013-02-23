@@ -9,8 +9,6 @@
         <a class="brand" href="<?php echo $ROOT ?>/">&lt;CodeSquire&gt;</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
-            <li><a href="<?php echo $ROOT ?>/html5/">HTML 5 Games</a></li>
-            <li class="divider-vertical"></li>
             <li><a href="<?php echo $ROOT ?>/ror/">Ruby on Rails</a></li>
             <li class="divider-vertical"></li>
             <li><a href="<?php echo $ROOT ?>/api/">APIs</a></li>
@@ -20,6 +18,8 @@
             <li><a href="<?php echo $ROOT ?>/win8/">Windows 8 apps</a></li>
             <li class="divider-vertical"></li>
             <li><a href="<?php echo $ROOT ?>/java/">Java</a></li>
+            <li><a href="<?php echo $ROOT ?>/html5/">HTML 5 Games</a></li>
+            <li class="divider-vertical"></li>
           </ul>
         </div>
       </div>
