@@ -123,4 +123,4 @@
     reference.
   </p>
 </article>
-<?PHP include 'foot.php'; ?>
+<?PHP include(ROOT.'/foot.php'); ?>
