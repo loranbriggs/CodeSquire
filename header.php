@@ -18,7 +18,10 @@
             <li><a href="<?php echo $ROOT ?>/win8/">Windows 8 apps</a></li>
             <li class="divider-vertical"></li>
             <li><a href="<?php echo $ROOT ?>/java/">Java</a></li>
+            <li class="divider-vertical"></li>
             <li><a href="<?php echo $ROOT ?>/html5/">HTML 5 Games</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="<?php echo $ROOT ?>/blog/">Blog</a></li>
             <li class="divider-vertical"></li>
           </ul>
         </div>

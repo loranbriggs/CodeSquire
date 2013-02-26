@@ -27,6 +27,19 @@ p {
   color: #2C3B67;
 }
 
+article.blog {
+  padding: 10px 5%;
+  background-color: #eee;
+}
+
+article h1 { 
+  color: #2C3B67;
+}
+
+article pre {
+  background-color: #ffc;
+}
+
 iframe.well {
   width: 80%;
   margin: 10px 10%;
