@@ -3,6 +3,7 @@
   <head>
     <title>CodeSquire</title>
       <?php define(ROOT, $_SERVER['DOCUMENT_ROOT']); ?>
+      <?php include_once(ROOT.'analyticstracking.php') ?>
       <meta charset="utf-8" />
       <link rel = "icon" href = "<?php echo $ROOT ?>/home.ico" type = "image/x-icon" />
       <link rel="stylesheet" href="<?php echo $ROOT ?>/stylesheets/bootstrap.css">
