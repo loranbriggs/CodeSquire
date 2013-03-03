@@ -1,6 +1,6 @@
 <?PHP include 'head.php'; ?>
   <div class='row-fluid'>
-    <div id='main-pannel' class='span9'>
+    <div id='main-pannel' class='span10'>
       <div id="twitter-feed" class="well">
         <div id="tweet"></div>
       </div><!-- end twitter-feed -->
@@ -63,7 +63,7 @@
         });
       </script>
     </div>
-    <div id='right-pannel' class='span3'>
+    <div id='right-pannel' class='span2'>
       <?PHP include(ROOT.'/right_add_pannel.php'); ?>
     </div>
   </div>
