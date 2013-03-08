@@ -20,6 +20,10 @@
 <body> 
 	<div id="fb-root"></div>
 	<div style="text-align: center;">
+	<!-- Construct 2 exported games require jQuery.  To save bandwidth, by default
+	this is set to grab it off the Google content delivery network (CDN). Fall back to local if not available. -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write("<script src='jquery-1.7.1.min.js'>\x3C/script>")</script>
 
 	<script>
 	// Issue a warning if trying to preview an exported project on disk.
@@ -33,7 +37,7 @@
 	</script>
 
 		<!-- The canvas must be inside a div called c2canvasdiv -->
-		<div id="c2canvasdiv" style="margin: 0 auto; width: 800px; height: 600px;">
+		<div id='c2canvasdiv' style='margin: 0 auto; width: 800px; height: 600px; float: left;'>
 		
 			<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
 			ID the runtime looks for in the jQuery ready event (above). -->
@@ -50,18 +54,34 @@
 			</canvas>
 			
 		</div>
+    <div style="float: right;">
+      <script type="text/javascript">
+        if ( $(window).width() > 1200 ) {<!--
+          google_ad_client = "ca-pub-6307932957540580";
+          /* vertical-banner */
+          google_ad_slot = "5049147759";
+          google_ad_width = 160;
+          google_ad_height = 600;
+          //-->
+        } else {<!--
+          google_ad_client = "ca-pub-6307932957540580";
+          /* mobile_banner */
+          google_ad_slot = "6382620152";
+          google_ad_width = 320;
+          google_ad_height = 50;
+          //-->
+        }
+      </script>
+      <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+    </div>
 
-        <br />
 		
-
 	</div>
 	
 	<!-- Pages load faster with scripts at the bottom -->
 	
-	<!-- Construct 2 exported games require jQuery.  To save bandwidth, by default
-	this is set to grab it off the Google content delivery network (CDN). Fall back to local if not available. -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write("<script src='jquery-1.7.1.min.js'>\x3C/script>")</script>
 
 
 	

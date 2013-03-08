@@ -13200,15 +13200,15 @@ cr.getProjectModel = function() { return [
 		false
 	]
 ,	[
-		cr.plugins_.Keyboard,
+		cr.plugins_.Text,
+		false,
 		true,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
 		false
 	]
 ,	[
@@ -13224,15 +13224,15 @@ cr.getProjectModel = function() { return [
 		false
 	]
 ,	[
-		cr.plugins_.Text,
+		cr.plugins_.Touch,
+		true,
 		false,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
 		false
 	]
 ,	[
@@ -13248,11 +13248,11 @@ cr.getProjectModel = function() { return [
 		true
 	]
 ,	[
-		cr.plugins_.Touch,
+		cr.plugins_.Button,
+		false,
 		true,
-		false,
-		false,
-		false,
+		true,
+		true,
 		false,
 		false,
 		false,
@@ -13260,11 +13260,11 @@ cr.getProjectModel = function() { return [
 		false
 	]
 ,	[
-		cr.plugins_.Button,
+		cr.plugins_.Keyboard,
+		true,
 		false,
-		true,
-		true,
-		true,
+		false,
+		false,
 		false,
 		false,
 		false,
@@ -13843,21 +13843,6 @@ cr.getProjectModel = function() { return [
 		0,
 		0,
 		0,
-		["images/startbg.png", 132, 1],
-		null,
-		[
-		],
-		false,
-		false,
-		[]
-	]
-,	[
-		"t25",
-		cr.plugins_.TiledBg,
-		false,
-		0,
-		0,
-		0,
 		["images/whitebg.png", 156, 1],
 		null,
 		[
@@ -13867,7 +13852,7 @@ cr.getProjectModel = function() { return [
 		[]
 	]
 ,	[
-		"t26",
+		"t25",
 		cr.plugins_.Sprite,
 		false,
 		0,
@@ -13883,10 +13868,175 @@ cr.getProjectModel = function() { return [
 			0,
 			false,
 			[
-				["images/archer-sheet0.png", 707, 0, 0, 100, 179, 1, 0.5, 0.502793,[],[],4]
+				["images/ground-sheet0.png", 43390, 0, 0, 256, 256, 1, 0.5, 0.5,[],[],1]
 			]
 			]
 		],
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t26",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground0.png", 43390, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t27",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground3.png", 52942, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t28",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground4.png", 45168, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t29",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground5.png", 32761, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t30",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground6.png", 57739, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t31",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground7.png", 61440, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t32",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground9.png", 60307, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t33",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/ground8.png", 60358, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t34",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/startbg.png", 1177405, 1],
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t35",
+		cr.plugins_.Button,
+		false,
+		0,
+		0,
+		0,
+		null,
+		null,
+		[
+		],
+		false,
+		false,
+		[]
+	]
+,	[
+		"t36",
+		cr.plugins_.TiledBg,
+		false,
+		0,
+		0,
+		0,
+		["images/levelcompletebg.png", 333724, 1],
+		null,
 		[
 		],
 		false,
@@ -13919,6 +14069,102 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				33,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				32,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				31,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				30,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				29,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				28,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				27,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
+				26,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
 				[0, 0, 0, 1280, 1024, 0, 0, 1, 0, 0, 0, 0, []],
 				22,
 				[
@@ -13987,27 +14233,6 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[155, 883, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
 				[408, -69, 0, 118, 101, 0, 0, 1, 0.5, 0.504951, 0, 0, []],
 				4,
 				[
@@ -14041,174 +14266,6 @@ cr.getProjectModel = function() { return [
 					1
 				],
 				[
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[557, 564, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[739, 350, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[494, 882, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[883, 536, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[980, 916, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[1223, 855, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[1213, 411, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
-				]
-				],
-				[
-					0,
-					0,
-					1
-				]
-			]
-,			[
-				[1206, 73, 0, 106, 106, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				3,
-				[
-					2
-				],
-				[
-				[
-					60,
-					0,
-					0,
-					0,
-					1
 				]
 				],
 				[
@@ -14255,8 +14312,8 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
-				[34, 25, 0, 588, 42, 0, 0, 0.3, 0, 0, 0, 0, []],
-				25,
+				[34, 25, 0, 588, 42, 0, 0, 0.6, 0, 0, 0, 0, []],
+				24,
 				[
 				],
 				[
@@ -14267,7 +14324,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[38, 24, 0, 744, 64, 0, 0, 1, 0, 0, 0, 0, []],
+				[47, 19, 0, 744, 64, 0, 0, 1, 0, 0, 0, 0, []],
 				8,
 				[
 				],
@@ -14276,7 +14333,7 @@ cr.getProjectModel = function() { return [
 				[
 					"Text",
 					0,
-					"18pt Gabriola",
+					"22pt Gabriola",
 					"rgb(204,51,0)",
 					0,
 					0,
@@ -14398,7 +14455,7 @@ cr.getProjectModel = function() { return [
 			[
 			[
 				[0, 0, 0, 800, 600, 0, 0, 1, 0, 0, 0, 0, []],
-				24,
+				34,
 				[
 				],
 				[
@@ -14426,14 +14483,14 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
-				[376, 373, 0, 75, 25, 0, 0, 1, 0, 0, 0, 0, []],
+				[283, 374, 0, 75, 25, 0, 0, 1, 0, 0, 0, 0, []],
 				6,
 				[
 				],
 				[
 				],
 				[
-					"Start",
+					"Mouse",
 					"",
 					1,
 					1,
@@ -14470,7 +14527,7 @@ cr.getProjectModel = function() { return [
 				[
 					"Aim with mouse, move with arrows or WASD, kill baddies",
 					0,
-					"bold 6pt Gabriola",
+					"bold 36pt Gabriola",
 					"rgb(204,51,0)",
 					0,
 					0,
@@ -14480,16 +14537,19 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[113, 410, 0, 100, 179, 0, 0, 1, 0.5, 0.502793, 0, 0, []],
-				26,
+				[523, 374, 0, 72, 24, 0, 0, 1, 0, 0, 0, 0, []],
+				35,
 				[
 				],
 				[
 				],
 				[
-					0,
-					0,
-					1
+					"Touch",
+					"",
+					1,
+					1,
+					1,
+					""
 				]
 			]
 			],
@@ -14522,18 +14582,6 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
-				[0, 0, 0, 800, 600, 0, 0, 1, 0, 0, 0, 0, []],
-				24,
-				[
-				],
-				[
-				],
-				[
-					0,
-					0
-				]
-			]
-,			[
 				[634, 424, 0, 110, 110, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				10,
 				[
@@ -14594,6 +14642,18 @@ cr.getProjectModel = function() { return [
 					0,
 					0,
 					1
+				]
+			]
+,			[
+				[0, 0, 0, 800, 600, 0, 0, 1, 0, 0, 0, 0, []],
+				36,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
 				]
 			]
 			],
@@ -14719,7 +14779,7 @@ cr.getProjectModel = function() { return [
 			[
 			[
 				[0, 0, 0, 800, 600, 0, 0, 1, 0, 0, 0, 0, []],
-				24,
+				36,
 				[
 				],
 				[
@@ -14747,6 +14807,18 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
+				[39, 243, 0, 175, 175, 0, 0, 0.5, 0, 0, 0, 0, []],
+				24,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
 				[160, 30, 0, 512, 212, 0, 0, 1, 0, 0, 0, 0, []],
 				7,
 				[
@@ -14779,25 +14851,6 @@ cr.getProjectModel = function() { return [
 					1,
 					1,
 					""
-				]
-			]
-,			[
-				[133, 141, 0, 599, 60, 0, 0, 1, 0, 0, 0, 0, []],
-				8,
-				[
-				],
-				[
-				],
-				[
-					"Text",
-					0,
-					"bold 24pt Gabriola",
-					"rgb(204,204,0)",
-					0,
-					0,
-					0,
-					0,
-					0
 				]
 			]
 ,			[
@@ -14883,6 +14936,30 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
+				[256, 344, 0, 175, 175, 0, 0, 0.5, 0, 0, 0, 0, []],
+				24,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
+				[485, 434, 0, 175, 175, 0, 0, 0.5, 0, 0, 0, 0, []],
+				24,
+				[
+				],
+				[
+				],
+				[
+					0,
+					0
+				]
+			]
+,			[
 				[383, 381, 0, 115, 61, 0, 0, 1, 0, 0, 0, 0, []],
 				13,
 				[
@@ -14937,7 +15014,7 @@ cr.getProjectModel = function() { return [
 			1,
 			"EnemyAlive",
 			0,
-			9,
+			0,
 false,false
 		]
 ,		[
@@ -15253,11 +15330,6 @@ false,false
 			],
 			[
 			[
-				-1,
-				cr.system_object.prototype.acts.ResetGlobals,
-				null
-			]
-,			[
 				17,
 				cr.plugins_.Sprite.prototype.acts.SetVisible,
 				null
@@ -15303,7 +15375,1483 @@ false,false
 						]
 						,[
 							0,
-							2
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						1
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						2
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						3
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						4
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						5
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						6
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						7
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						8
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
+						]
+					]
+				]
+,				[
+					8,
+					0
+				]
+,				[
+					7,
+					[
+						0,
+						9
+					]
+				]
+				]
+			]
+			],
+			[
+			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			[
+			[
+				-1,
+				cr.system_object.prototype.cnds.OnLayoutStart,
+				null,
+				1,
+				false,
+				false,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.Compare,
+				null,
+				0,
+				false,
+				false,
+				false
+				,[
+				[
+					7,
+					[
+						8,
+						[
+							23,
+							"Level"
+						]
+						,[
+							0,
+							10
 						]
 					]
 				]
@@ -15323,7 +16871,106 @@ false,false
 			],
 			[
 			[
+				26,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
 				23,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				22,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				27,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				28,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				29,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				30,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				31,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				33,
+				cr.plugins_.TiledBg.prototype.acts.SetVisible,
+				null
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				32,
 				cr.plugins_.TiledBg.prototype.acts.SetVisible,
 				null
 				,[
@@ -17342,12 +18989,19 @@ false,false
 					[
 						6,
 						[
-							23,
-							"Level"
-						]
-						,[
 							0,
 							200
+						]
+						,[
+							9,
+							[
+								23,
+								"Level"
+							]
+							,[
+								1,
+								1.1
+							]
 						]
 					]
 				]
@@ -17679,19 +19333,13 @@ false,false
 			false,
 			[
 			[
-				16,
-				cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+				35,
+				cr.plugins_.Button.prototype.cnds.OnClicked,
 				null,
-				0,
+				1,
 				false,
 				false,
 				false
-				,[
-				[
-					4,
-					6
-				]
-				]
 			]
 			],
 			[
@@ -18314,7 +19962,7 @@ false,false
 					7,
 					[
 						0,
-						9
+						0
 					]
 				]
 				]
@@ -18403,7 +20051,7 @@ false,false
 					7,
 					[
 						0,
-						9
+						0
 					]
 				]
 				]
@@ -18432,7 +20080,7 @@ false,false
 	true,
 	true,
 	true,
-	"0.1",
+	"2",
 	2,
 	false,
 	0,

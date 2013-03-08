@@ -10,12 +10,7 @@
     <div id='main-pannel' class='span10'>
       <div class="text-center">
         <h2><a href="rougeassassin/">Rouge Assassin</a></h2>
-          <iframe 
-            seamless
-            src="rougeassassin/"
-            class="well"
-            >
-          </iframe>
+        <img src="rougeassassin/images/startbg.png" />
       </div>
     </div>
     <div id='right-pannel' class='span2'>
