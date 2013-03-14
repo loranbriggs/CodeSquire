@@ -3,7 +3,7 @@
     <div id='main-pannel' class='span10'>
       <applet
         class = "well"
-        code = "HexPuzzle.class"
+        code = "HexPuzzle"
         width = 350
         height = 650
         align = "center"
