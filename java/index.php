@@ -12,6 +12,7 @@
         <ul class="nav nav-tabs">
           <li class="active"><a href="#tab1" data-toggle="tab">Playfair's Cipher</a></li>
           <li><a href="#tab2" data-toggle="tab">Polynomials</a></li>
+          <li><a href="#tab3" data-toggle="tab">Hex Puzzle</a></li>
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="tab1">
@@ -28,7 +29,7 @@
             </applet>
             <p class = "well">
               Download the source code 
-              <a href="PlayfairCipher.java">Here</a>
+              <a href="playfairscipher/PlayfairCipher.java">Here</a>
             </p>
           </div>
           <div class="tab-pane" id="tab2">
@@ -45,7 +46,24 @@
             </applet>
             <p class = "well">
               Download the source code 
-              <a href="Polynomials.zip">Here</a>
+              <a href="polynomials/Polynomials.zip">Here</a>
+            </p>
+          </div>
+          <div class="tab-pane" id="tab3">
+            <h2>Hex Puzzle</h2>
+            <applet
+              class = "well"
+              codebase = "hexpuzzle/"
+              code = "HexPuzzle.class"
+              width = 350
+              height = 650
+              align = "center"
+              alt = "error"
+            >
+            </applet>
+            <p class = "well">
+              Download the source code 
+              <a href="hexpuzzle/HexPuzzle.zip">Here</a>
             </p>
           </div>
         </div>
