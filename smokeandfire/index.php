@@ -1,4 +1,8 @@
-﻿<?PHP include '../head.php'; ?>
+﻿<?PHP include '../head-half1.php'; ?>
+  <title>Smoke and Fire</title>
+  <meta property="og:title" content="Smoke and Fire" />
+  <meta property="of:image" content="http://codesquire.com/smokeandfire/images/logo.png" />
+<?PHP include '../head-half2.php'; ?>
   <div class='row-fluid'>
     <div id='main-pannel' class='span10'>
 
@@ -29,7 +33,7 @@
       <div id="warning" style="" 
         <p>
           "drinks" refer to a substance that <strong>YOU</strong> are legally 
-          able to consome. This game is not inteded to be played
+          able to consume. This game is not inteded to be played
           by underage people. 
         </p>
       </div>
