@@ -2,7 +2,7 @@
   <title>Smoke and Fire</title>
   <meta property="og:title" content="Smoke and Fire" />
   <meta property="og:type" content="website" />
-  <meta property="of:image" content="http://codesquire.com/smokeandfire/images/logo.png" />
+  <meta property="og:image" content="http://codesquire.com/smokeandfire/images/logo.png" />
   <meta property="og:url" content="http://codesquire.com/smokeandfire/" />
   <meta property="og:description" content="Smoke and Fire the simple and fun drinking game. Now no deck required with this browser game! " />
   <meta property="og:site_name" content="CodeSquire" />
