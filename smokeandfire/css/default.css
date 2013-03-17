@@ -1,0 +1,26 @@
+﻿body {
+  background-image: url(../images/bg.jpg);
+  text-align:center;
+}
+
+.hide {
+  visibility:hidden;
+}
+h1 {
+  padding: 2%;
+}
+
+#prompt1, #prompt2, #prompt3, #prompt4 { border-radius: 20px; }
+
+#warning { margin-top: 50px; }
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
