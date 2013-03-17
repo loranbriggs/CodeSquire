@@ -1,11 +1,11 @@
 ﻿<?PHP include '../head-half1.php'; ?>
   <title>Smoke and Fire</title>
   <meta property="og:title" content="Smoke and Fire" />
-  <meta property="og:url" content="http://codesquire.com/smokeandfire/" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="Smoke and Fire the simple and fun drinking game. Now no deck required with this browser game! " />
-  <meta property="og:title" content="Smoke and Fire" />
   <meta property="of:image" content="http://codesquire.com/smokeandfire/images/logo.png" />
+  <meta property="og:url" content="http://codesquire.com/smokeandfire/" />
+  <meta property="og:description" content="Smoke and Fire the simple and fun drinking game. Now no deck required with this browser game! " />
+  <meta property="og:site_name" content="CodeSquire" />
 <?PHP include '../head-half2.php'; ?>
   <div class='row-fluid'>
     <div id='main-pannel' class='span10'>
