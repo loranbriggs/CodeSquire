@@ -1,0 +1,31 @@
+﻿body {
+  text-align:center;
+}
+
+h1 {
+  margin: 2%;
+}
+
+select {
+  margin: 2%;
+}
+
+.highlight {
+  color: #2f96b4;
+}
+
+input {
+  border-radius: 10px;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
