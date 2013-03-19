@@ -24,7 +24,7 @@
             <img src="../smokeandfire/images/croppedscreenshots.png" /></a>
           </div>
           <div class="tab-pane" id="tab3">
-            <a href="../statequiz/"><h2>Smoke and Fire</h2>
+            <a href="../statequiz/"><h2>State Quiz</h2>
             <img src="../statequiz/images/splashscreen.png" /></a>
           </div>
         </div>
