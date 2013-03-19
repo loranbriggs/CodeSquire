@@ -90,7 +90,7 @@ function promptQuestion() {
   setHint();
 }
 
-function evaluate() {
+function enterButtonClicked() {
   var answer = document.getElementById("answer").value;
   answer = answer.trim();
   switch (questionType) {
@@ -141,4 +141,8 @@ function clearHint() {
   for (var i = 0; i < highlighted.length; i++) {
     highlighted[i].className = "";
   }
+}
+
+function test() {
+  document.getElementById("solution").innerHTML = "test";
 }

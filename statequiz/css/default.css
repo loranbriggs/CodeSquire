@@ -1,9 +1,12 @@
 ﻿body {
   text-align:center;
+  background-image: url(../images/white-stripped-bg.png) ;
+  color: #4f4f4f;
 }
 
 h1 {
   margin: 2%;
+  color: #a3d07e;
 }
 
 select {
@@ -11,7 +14,7 @@ select {
 }
 
 .highlight {
-  color: #2f96b4;
+  color: #a3d07e;
 }
 
 input {
