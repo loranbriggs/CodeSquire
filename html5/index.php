@@ -12,6 +12,7 @@
         <ul class="nav nav-tabs">
           <li class="active"><a href="#tab1" data-toggle="tab">Rogue Assassin</a></li>
           <li><a href="#tab2" data-toggle="tab">Smoke and Fire</a></li>
+          <li><a href="#tab3" data-toggle="tab">State Quiz</a></li>
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="tab1">
@@ -21,6 +22,10 @@
           <div class="tab-pane" id="tab2">
             <a href="../smokeandfire/"><h2>Smoke and Fire</h2>
             <img src="../smokeandfire/images/croppedscreenshots.png" /></a>
+          </div>
+          <div class="tab-pane" id="tab3">
+            <a href="../statequiz/"><h2>Smoke and Fire</h2>
+            <img src="../statequiz/images/splashscreen.png" /></a>
           </div>
         </div>
       </div>
