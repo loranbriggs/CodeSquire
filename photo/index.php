@@ -6,6 +6,7 @@
       background-image: url(../images/white-stripped-bg.png) ;
       color: #4f4f4f;
     }
+    h1 { color: #4f4f4f; }
   </style>
 <?PHP include '../head-half2.php'; ?>
   <?php
@@ -32,7 +33,8 @@
     } else {
   ?>
   <form method="post" enctype="multipart/form-data">
-    File name:<input type="file" name="imgfile"><br>
+    <h1>Upload a photo</h1>
+    <input type="file" name="imgfile"><br>
     <input type="submit" name="submit" value="upload" class="btn btn-info">
   </form>
   <?php
