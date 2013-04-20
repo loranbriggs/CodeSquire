@@ -6,7 +6,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </a>
-        <a class="brand" href="<?php echo $ROOT ?>/">&lt;CodeSquire&gt;</a>
+        <a class="brand" href="<?php echo $ROOT ?>/">&lt;Code Squire&gt;</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
             <li><a href="<?php echo $ROOT ?>/ror/">Ruby on Rails</a></li>

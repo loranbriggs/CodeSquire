@@ -1,5 +1,5 @@
 <?PHP include '../head-half1.php'; ?>
-  <title>CapitalsQuiz</title>
+  <title>Photo Upload</title>
   <style>
     body {
       text-align:center;
