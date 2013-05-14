@@ -5,12 +5,12 @@
   <div class='row-fluid'>
     <div id='main-pannel' class='span10'>
       <h1>Products</h1>
-      <hr class="break" />
-
       <div id="products-grid">
 
         <div class="row-fluid">
+          <hr class="break" />
           <h2>WordPress<span class="wordpress"></span></h2>
+          <hr class="break" />
           <div class="product span5">
             <h3>AICCU</h3>
             View Site: <a href="https://aiccu.edu/">aiccu.edu</a>
@@ -27,12 +27,13 @@
             <img src="../images/products/cgtech.png" height="150px" width="150px" />
           </div>
         </div>
-        <hr class="break" />
 
         <div class="row-fluid">
+          <hr class="break" />
           <h2>Ruby on Rails<span class="ruby"></span></h2>
+          <hr class="break" />
           <div class="product span5">
-            <h3>Rockreation Reservation Application</h3>
+            <h3>Rockreation Reservations</h3>
             View Site: <a href="https://rockreation.herokuapp.com/">rockreations.herokuapp.com</a>
             <img src="../images/products/rockreation.png" height="150px" width="150px" />
           </div>
@@ -42,10 +43,11 @@
             <img src="../images/ruby128.png" height="150px" width="150px" />
           </div>
         </div>
-        <hr class="break" />
 
         <div class="row-fluid">
+          <hr class="break" />
           <h2>Windows 8 Applications<span class="windows"></span></h2>
+          <hr class="break" />
           <div class="product span5">
             <h3>Rogue Assassin</h3>
             Download: <a href="http://apps.microsoft.com/windows/app/rogue-assassin/a116ea25-6e9a-473a-a0fe-510d294e9ae0">Rogue Assassin</a>
@@ -97,10 +99,11 @@
             <img src="../images/products/rock.png" height="150px" width="150px" />
           </div>
         </div>
-        <hr class="break" />
 
         <div class="row-fluid">
+          <hr class="break" />
           <h2>Java<span class="java"></span></h2>
+          <hr class="break" />
           <div class="product span5">
             <h3>Playfair's Cipher</h3>
             View At: <a href="http://codesquire.com/java/playfaircipher">playfaircipher.codesquire.com</a>
