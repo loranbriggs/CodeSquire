@@ -1,6 +1,7 @@
 <?PHP include 'head.php'; ?>
   <div class='row-fluid'>
     <div id='main-pannel' class='span10'>
+    	<h1>Contact</h1>
     	<p>
     		Interested in working with me? Have a question about my work? Email
     		<a href="">loran@codesquire.com</a>

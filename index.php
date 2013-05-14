@@ -1,6 +1,7 @@
 <?PHP include 'head.php'; ?>
   <div class='row-fluid'>
     <div id='main-pannel' class='span10'>
+      <h1>Welcome</h1>
       <div id="twitter-feed" class="well">
         <div id="tweet"></div>
       </div><!-- end twitter-feed -->

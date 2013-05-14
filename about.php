@@ -1,6 +1,7 @@
 <?PHP include 'head.php'; ?>
   <div class='row-fluid'>
     <div id='main-pannel' class='span10'>
+    	<h1>About</h1>
     	<p>
     		Come to learn, come to browse, come to hire? <a href="../">CodeSquire.com</a>
     		is a place for many things. I place helpful <a href="articles/">tips</a>
