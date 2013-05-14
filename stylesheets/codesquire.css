@@ -20,7 +20,6 @@ body {
 }
 
 nav.navbar .brand{
-  font-size: 1.2em;
   padding:5%;
 }
 
@@ -37,7 +36,7 @@ nav ul li a {
 }
 
 .well {
-  width: 60%;
+  width: 90%;
   background-color: #DDDDDD;
   background-color:rgba(221,221,221,0.7);
   margin: 10px 20%;
@@ -153,6 +152,10 @@ span.html{
   nav.navbar .brand{
     font-size: 2em;
     padding:5%;
+  }
+
+  .well {
+    width: 60%;
   }
 }
 
