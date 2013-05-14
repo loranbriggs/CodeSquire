@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/black-striped-bg.png) ;
+  background-image: url(../images/white-striped-bg.png) ;
   /*
   background-repeat:no-repeat;
   background-position: center center;
@@ -12,6 +12,29 @@ body {
   */
   margin: 1%;
 }
+
+.navbar-inner {
+  min-height: 200px;
+  background: url(../images/headerbg.png);
+}
+
+nav.navbar .brand{
+  font-size: 1.2em;
+  padding:5%;
+}
+
+nav.navbar .brand:before{
+  content: "<";
+}
+nav.navbar .brand:after{
+  content: ">";
+}
+
+nav ul li a {
+  background: rgba(245,245,245,0.5);
+  border-radius: 4px;
+}
+
 .well {
   width: 60%;
   background-color: #DDDDDD;
@@ -19,8 +42,17 @@ body {
   margin: 10px 20%;
   padding: 3%;
 }
-h1, h2, h3 {
-  color: #eee;
+
+h1, h2, h3, h4, h5 {
+  color: #663;
+}
+
+hr {
+  border-color: #999;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 p {
@@ -48,11 +80,80 @@ iframe.well {
 
 #tweet ul { list-style: none; }
 #tweet li {
-  color: #eee;
+  color: #333;
 }
 
 .instagram img {
   display: block;
   margin: 0 auto;
 }
+
+#products-grid {
+  text-align: left;
+  padding-left: 5%;
+}
+
+#products-grid img {
+  float: right;
+}
+
+#products-grid h2 span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+
+}
+
+#products-grid .product {
+  border-style: solid;
+  border-color: #ccc;
+  padding:1%;
+  margin: 1%;
+  border-radius: 5px;
+}
+
+span.wordpress {
+  background: url('../images/wordpress128.png');
+}
+
+span.ruby{
+  background: url('../images/ruby128.png');
+}
+
+span.windows{
+  background: url('../images/windows128.png');
+}
+
+span.java{
+  background: url('../images/java128.png');
+}
+
+span.html{
+  background: url('../images/html128.png');
+}
+
+
+
+/* media queries */
+
+/* larger than 480 px */
+@media (min-width: 480px) { 
+  nav.navbar .brand{
+    font-size: 1.5em;
+    padding:5%;
+  }
+}
+
+/* larger than 1000 px */
+@media (min-width: 1000px) { 
+  nav.navbar .brand{
+    font-size: 2em;
+    padding:5%;
+  }
+}
+
+
 
