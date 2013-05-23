@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5 {
   color: #663;
 }
 
+
 hr {
   border-color: #999;
 }
@@ -114,7 +115,7 @@ iframe.well {
   padding:1%;
   margin: 1%;
   border-radius: 5px;
-  min-height: 260px;
+  min-height: 280px;
 }
 
 span.wordpress {
@@ -147,6 +148,10 @@ span.html{
     font-size: 1.5em;
     padding:5%;
   }
+  #products-grid .product {
+    min-height: 260px;
+  }
+
 }
 
 /* larger than 1000 px */
