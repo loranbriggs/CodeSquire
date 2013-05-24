@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-inner {
-  min-height: 200px;
+  min-height: 120px;
   background: url(../images/headerbg.png);
 }
 
@@ -48,6 +48,13 @@ h1, h2, h3, h4, h5 {
   color: #663;
 }
 
+h3 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 2.0em;
+}
 
 hr {
   border-color: #999;
@@ -150,6 +157,13 @@ span.html{
   }
   #products-grid .product {
     min-height: 260px;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 2.3em;
   }
 
 }
