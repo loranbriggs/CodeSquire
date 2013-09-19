@@ -1,4 +1,5 @@
 <?php
+    header('Access-Control-Allow-Origin: *');
     //if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $imageId =  $_GET['imageId'];
         $link = $_GET['link'];
