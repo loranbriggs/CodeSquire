@@ -1,6 +1,6 @@
 <?php
     header('Access-Control-Allow-Origin: *');
-    //if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if ( $_GET['imageId'] &&  $_GET['link'] && $_GET['deleteHash'] ) {
         $imageId =  $_GET['imageId'];
         $link = $_GET['link'];
         $deleteHash = $_GET['deleteHash'];
@@ -9,7 +9,7 @@
         $fp = fopen('images.csv', 'a');
         fputcsv($fp, array($imageId, $link, $deleteHash));
         fclose($fp);
-    //}
+    }
 ?>
 
 
