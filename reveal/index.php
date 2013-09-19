@@ -1,5 +1,5 @@
 <?php
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    //if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $imageId =  $_GET['imageId'];
         $link = $_GET['link'];
         $deleteHash = $_GET['deleteHash'];
@@ -8,7 +8,7 @@
         $fp = fopen('images.csv', 'a');
         fputcsv($fp, array($imageId, $link, $deleteHash));
         fclose($fp);
-    }
+    //}
 ?>
 
 
