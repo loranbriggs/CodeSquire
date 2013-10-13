@@ -18,22 +18,45 @@
 <html lang="en">
   <head>
     <title>Save Image Hash</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            margin: 5%;
+        }
+        .upload {
+            margin: 10px;
+            overflow: hidden;
+            background: #eeeeee;
+        }
+    </style>
   </head>
 
     <body>
-        Images:
+        <h1>Images uploaded</h1>
+        <div class="row">
         <?php
             $row = 1;
             if (($handle = fopen("images.csv", "r")) !== FALSE) {
                 while (($data = fgetcsv($handle, 0, ",")) !== FALSE) {
-                    $num = count($data);
-                    echo "<p> $num fields in line $row: <br /></p>\n";
                     $row++;
-                    for ($c=0; $c < $num; $c++) {
-                        echo $data[$c] . "<br />\n";
-                    }
+        ?>
+                    <div class="upload col-sm-5 col-md-3 col-lg-2 well-sm text-center">
+                        <p class='imageId'>Image ID: <?php echo $data[0]; ?></p>
+                        <a href='<?php echo $data[1]; ?>'>
+                            <img src='<?php echo $data[1]; ?>'
+                                class='img-image' width="150" height="150" />
+                        </a>
+                        <p class='deleteHash'>
+                            Delete Hash: <span class="label label-danger">
+                            <?php echo $data[2]; ?></span>
+                        </p>
+                        <hr />
+                    </div>
+        <?php
                 }
                 fclose($handle);
+                echo "</div>";
+                echo $row . " images";
             }
         ?>
    </body>
