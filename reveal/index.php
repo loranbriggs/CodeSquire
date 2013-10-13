@@ -47,8 +47,8 @@
                                 class='img-image' width="150" height="150" />
                         </a>
                         <p class='deleteHash'>
-                            Delete Hash: <span class="label label-danger">
-                            <?php echo $data[2]; ?></span>
+                            Delete Hash: <br>
+                            <span class="label label-danger"><?php echo $data[2]; ?></span>
                         </p>
                         <hr />
                     </div>
