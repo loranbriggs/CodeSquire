@@ -29,7 +29,7 @@
             <li class="divider-vertical"></li>
             <li><a href="<?php echo $ROOT ?>/contact">Contact</a></li>
             <li class="divider-vertical"></li>
-            <li><a href="<?php echo $ROOT ?>/articles/">Articles</a></li>
+            <li><a href="http://blog.codesquire.com">Blog</a></li>
             <li class="divider-vertical"></li>
             <li><a href="<?php echo $ROOT ?>/products/">Products</a></li>
             <li class="divider-vertical"></li>
